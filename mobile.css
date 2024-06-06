@@ -1,0 +1,115 @@
+@media screen and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Header Section */
+    header {
+        width: 102rem;
+        padding: 2.3rem 11%;
+        position: fixed;
+    }
+
+    .logo {
+        height: 2.8rem;
+        width: 2.8rem;
+        margin-top: 6px;
+    }
+
+    .logoname {
+        font-size: 2rem;
+    }
+
+    /* Detail Section */
+    .detail {
+        flex-direction: column-reverse;
+    }
+
+    .dethead {
+        font-size: 2.5rem;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+        padding: 0;
+    }
+
+    .img-fluid {
+        height: 45rem;
+        margin-left: 32rem;
+    }
+
+    .right {
+        margin-right: 0rem;
+        margin-bottom: 15px;
+        width: 57rem;
+        margin-left: 55rem;
+    }
+
+    .right p {
+        font-size: 1.7rem;
+    }
+
+    .AboutSec h2 {
+        text-align: center;
+        margin-left: 13rem;
+    }
+
+    .right2 {
+        width: 80rem;
+        margin-left: 10rem;
+    }
+
+    .right2 p {
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin-right: 12rem;
+    }
+
+    .left2 img {
+        height: 25rem;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 245px;
+    }
+
+    .EduSec .card {
+        width: 22rem;
+        margin-left: 20rem;
+    }
+
+    .ContSec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContSec p {
+        font-size: 1.6rem;
+        margin-left: 60rem;
+        width: max-content;
+    }
+
+    .box2 {
+        width: 100vw;
+        height: 35rem;
+        margin-left: 30rem;
+    }
+
+    
+    textarea {
+        height: 7rem;
+        width: 25rem;
+    }
+
+    input[type="phonenumber"], input[type="text"]{
+        width: 25rem;
+    }
+
+    footer {
+        width: 300vw;
+    }
+}
